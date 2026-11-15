@@ -1,0 +1,54 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Trained models and checkpoints
+models/
+*.zip
+
+# Training logs and evaluation outputs
+logs/
+runs/
+tensorboard/
+*.monitor.csv
+
+# Generated videos and recordings
+videos/
+recordings/
+*.mp4
+*.gif
+
+# Experiment outputs
+experiments/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
